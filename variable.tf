@@ -26,9 +26,9 @@ variable "instance_type" {
   }
 }
 
-variable "sg_ids" {
-    type = list(string)
-}
+# variable "sg_ids" {
+#     type = list(string)
+# }
 
 variable "ec2_tags" {
   default = {}
